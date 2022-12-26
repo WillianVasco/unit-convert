@@ -1,0 +1,125 @@
+body {
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+    background-color: #724cf9;
+    color: white;
+    padding: 50px 0;
+    border-radius: 0.2%;
+}
+
+.title-header{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/*input-bgn*/
+#input-data {
+    margin: 0 0 30px 0;
+    height: 80px;
+    width: 150px;
+    background-color: #724cf9;
+    border: 1px solid white;
+    border-radius: 2%;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+}
+
+#input-data::placeholder {
+    color: #acabaac2;
+    font-size: 15px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*input-end*/
+
+/*button-bgn*/
+#converter-btn {
+    padding: 13px 30px;
+    border: none;
+    border-radius: 4%;
+    background-color: whitesmoke;
+    color: #5e6472;
+    font-weight: bold;
+}
+
+#converter-btn:hover {
+    background-color: #5f251a;
+    color: white;
+}
+
+#converter-btn:active {
+    background-color: #5f251a;
+    box-shadow: 0 2px #4b25d6;
+    transform: translateY(1px);
+}
+/*button-end*/
+
+/*measures contents*/
+
+.units-content {
+    background-color: #edede9;
+    padding: 50px 30px 65px 30px;
+    border-radius: 0.2%;
+}
+
+.length-section {
+    background-color: white;
+    width: 1000px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 2px 20px;
+    color: #5e6472;
+    font-weight: bold;
+    border-radius: 1%;
+}
+
+.volume-section {
+    background-color: white;
+    width: 1000px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 2px 20px;
+    color: #5e6472;
+    font-weight: bold;
+    border-radius: 1%;
+}
+
+.mass-section {
+    background-color: white;
+    width: 1000px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 20px;
+    color: #5e6472;
+    font-weight: bold;
+    border-radius: 1%;
+}
+
+#length-el {
+    font-weight: normal;
+}
+
+#volume-el {
+    font-weight: normal;
+}
+
+#mass-el {
+    font-weight: normal;
+}
